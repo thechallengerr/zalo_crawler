@@ -1,0 +1,36 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "homepage": "https://github.com/thechallengerr.github.io",
+  "description": "selenium",
+  "main": "index.js",
+  "dependencies": {
+    "connect-busboy": "^1.0.0",
+    "cors": "^2.8.5",
+    "create-react-app": "^5.0.1",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "express-fileupload": "^1.4.0",
+    "jpickle": "^0.4.1",
+    "mkdirp": "^1.0.4",
+    "nodemon": "^2.0.19",
+    "selenium-webdriver": "^4.3.0"
+  },
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "gh-pages": "^4.0.0",
+    "jquery": "^3.6.0",
+    "mocha": "^10.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC"
+}

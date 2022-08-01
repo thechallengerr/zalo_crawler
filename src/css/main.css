@@ -1,0 +1,21 @@
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+ .form__zalo {
+    margin-top: 64px;
+    display: none;
+    transition: all linear 0.5s;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.btn-danger a:hover {
+    text-decoration: none;
+}

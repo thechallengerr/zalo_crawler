@@ -1,0 +1,1811 @@
+{
+  "players": [
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p225850_SVE2.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A4.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/18.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/73.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/16.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19501027,
+      "cardName": "Kimpembe",
+      "firstName": "Presnel",
+      "lastName": "Kimpembe",
+      "commonName": "",
+      "rating": 99,
+      "position": "CB",
+      "clubName": "Paris Saint-Germain",
+      "nationName": "France",
+      "leagueName": "France Ligue 1",
+      "skillBoost": "Marking",
+      "footString": "3★ WF / Left",
+      "avgStats": {
+        "avg1": 98,
+        "avg2": 60,
+        "avg3": 89,
+        "avg4": 89,
+        "avg5": 108,
+        "avg6": 107
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "uERfuQ",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "c0KcEJ",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "iAXFz0",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p200389_SVE2.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A4.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/44.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/240.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/53.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19501026,
+      "cardName": "Oblak",
+      "firstName": "Jan",
+      "lastName": "Oblak",
+      "commonName": "",
+      "rating": 99,
+      "position": "GK",
+      "clubName": "Atlético de Madrid",
+      "nationName": "Slovenia",
+      "leagueName": "Spain Primera División",
+      "skillBoost": "Handling",
+      "footString": "3★ WF / Right",
+      "avgStats": {
+        "avg1": 59,
+        "avg2": 13,
+        "avg3": 46,
+        "avg4": 52,
+        "avg5": 20,
+        "avg6": 74
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "qbhpGG",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "7U6rXi",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "JQySoN",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p261249_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/18.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/73.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/16.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500946,
+      "cardName": "Michut",
+      "firstName": "Édouard",
+      "lastName": "Michut",
+      "commonName": "",
+      "rating": 86,
+      "position": "CAM",
+      "clubName": "Paris Saint-Germain",
+      "nationName": "France",
+      "leagueName": "France Ligue 1",
+      "skillBoost": "Longshots",
+      "footString": "3★ WF / Right",
+      "avgStats": {
+        "avg1": 86,
+        "avg2": 82,
+        "avg3": 87,
+        "avg4": 88,
+        "avg5": 65,
+        "avg6": 63
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "SA2spo",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "JMsWs6",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "g74bJ5",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p195396_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/21.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/110597.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/2076.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500945,
+      "cardName": "Tankulić",
+      "firstName": "Luka",
+      "lastName": "Tankulić",
+      "commonName": "",
+      "rating": 86,
+      "position": "ST",
+      "clubName": "SV Meppen",
+      "nationName": "Germany",
+      "leagueName": "Germany 3. Liga",
+      "skillBoost": "Secondstriker",
+      "footString": "4★ WF / Right",
+      "avgStats": {
+        "avg1": 88,
+        "avg2": 83,
+        "avg3": 70,
+        "avg4": 87,
+        "avg5": 41,
+        "avg6": 74
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "ZzFGtE",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "VbJDo8",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "H4vVjg",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p254994_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/17.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/100325.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/322.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500944,
+      "cardName": "Tenho",
+      "firstName": "Miro",
+      "lastName": "Tenho",
+      "commonName": "",
+      "rating": 86,
+      "position": "CB",
+      "clubName": "HJK Helsinki",
+      "nationName": "Finland",
+      "leagueName": "Finland Veikkausliiga",
+      "skillBoost": "Strength",
+      "footString": "3★ WF / Right",
+      "avgStats": {
+        "avg1": 72,
+        "avg2": 35,
+        "avg3": 65,
+        "avg4": 63,
+        "avg5": 88,
+        "avg6": 87
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "Oe22UO",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "CnXV9k",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "gRHIMm",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p226506_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/208.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/894.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/189.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500943,
+      "cardName": "Mets",
+      "firstName": "Karol",
+      "lastName": "Mets",
+      "commonName": "",
+      "rating": 86,
+      "position": "CB",
+      "clubName": "FC Zürich",
+      "nationName": "Estonia",
+      "leagueName": "Switzerland Super League",
+      "skillBoost": "Tackling",
+      "footString": "3★ WF / Left",
+      "avgStats": {
+        "avg1": 69,
+        "avg2": 65,
+        "avg3": 74,
+        "avg4": 75,
+        "avg5": 87,
+        "avg6": 90
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "bCnLdi",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "xmCsSA",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "RzBMxn",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p206142_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/18.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/143.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/61.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500942,
+      "cardName": "Dieng",
+      "firstName": "Timothée",
+      "lastName": "Dieng",
+      "commonName": "",
+      "rating": 86,
+      "position": "CDM",
+      "clubName": "Exeter City",
+      "nationName": "France",
+      "leagueName": "England League Two",
+      "skillBoost": "Holding",
+      "footString": "3★ WF / Right",
+      "avgStats": {
+        "avg1": 82,
+        "avg2": 69,
+        "avg3": 81,
+        "avg4": 80,
+        "avg5": 87,
+        "avg6": 88
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "djQXjr",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "yJiGaK",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "5YEivZ",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p224375_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/23.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/1874.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/2211.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500941,
+      "cardName": "Vécsei",
+      "firstName": "Bálint",
+      "lastName": "Vécsei",
+      "commonName": "",
+      "rating": 86,
+      "position": "CM",
+      "clubName": "Ferencvárosi TC",
+      "nationName": "Hungary",
+      "leagueName": "FUT Magyar Liga",
+      "skillBoost": "Vision",
+      "footString": "3★ WF / Left",
+      "avgStats": {
+        "avg1": 74,
+        "avg2": 76,
+        "avg3": 88,
+        "avg4": 83,
+        "avg5": 68,
+        "avg6": 87
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "F4ZbHq",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "a0Z12o",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "ju7dSI",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p262113_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/37.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/114912.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/31.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500940,
+      "cardName": "Zalewski",
+      "firstName": "Nicola",
+      "lastName": "Zalewski",
+      "commonName": "",
+      "rating": 86,
+      "position": "LM",
+      "clubName": "Roma FC",
+      "nationName": "Poland",
+      "leagueName": "Italy Serie A",
+      "skillBoost": "Counter",
+      "footString": "3★ WF / Right",
+      "avgStats": {
+        "avg1": 87,
+        "avg2": 78,
+        "avg3": 79,
+        "avg4": 88,
+        "avg5": 51,
+        "avg6": 60
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "xVlPRb",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "hXQAt2",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "C8tUZy",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p246650_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/21.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/110532.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/2076.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500939,
+      "cardName": "Sommer",
+      "firstName": "Niklas",
+      "lastName": "Sommer",
+      "commonName": "",
+      "rating": 86,
+      "position": "RB",
+      "clubName": "SV Waldhof Mannheim",
+      "nationName": "Germany",
+      "leagueName": "Germany 3. Liga",
+      "skillBoost": "Balanced",
+      "footString": "3★ WF / Right",
+      "avgStats": {
+        "avg1": 91,
+        "avg2": 52,
+        "avg3": 71,
+        "avg4": 87,
+        "avg5": 77,
+        "avg6": 79
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "gBz43j",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "3Nc6zE",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "O2PHvc",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p263891_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/205.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/1933.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/60.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500938,
+      "cardName": "De Barr",
+      "firstName": "Tjay",
+      "lastName": "De Barr",
+      "commonName": "",
+      "rating": 86,
+      "position": "ST",
+      "clubName": "Wycombe Wanderers",
+      "nationName": "Gibraltar",
+      "leagueName": "England League One",
+      "skillBoost": "Finishing",
+      "footString": "3★ WF / Right",
+      "avgStats": {
+        "avg1": 97,
+        "avg2": 76,
+        "avg3": 71,
+        "avg4": 87,
+        "avg5": 41,
+        "avg6": 73
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "HTCgrz",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "fY7BtR",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "mWICdU",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p233214_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/28.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/114326.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/66.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500937,
+      "cardName": "Gutkovskis",
+      "firstName": "Vladislavs",
+      "lastName": "Gutkovskis",
+      "commonName": "",
+      "rating": 86,
+      "position": "ST",
+      "clubName": "Raków Częstochowa",
+      "nationName": "Latvia",
+      "leagueName": "Poland Ekstraklasa",
+      "skillBoost": "Targetman",
+      "footString": "4★ WF / Right",
+      "avgStats": {
+        "avg1": 89,
+        "avg2": 79,
+        "avg3": 65,
+        "avg4": 78,
+        "avg5": 37,
+        "avg6": 87
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "Hh9aql",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "XYtERH",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "IyeeLg",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p216184_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/4.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/780.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/80.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500936,
+      "cardName": "Nutz",
+      "firstName": "Stefan",
+      "lastName": "Nutz",
+      "commonName": "",
+      "rating": 87,
+      "position": "CAM",
+      "clubName": "SV Ried",
+      "nationName": "Austria",
+      "leagueName": "Austria Bundesliga",
+      "skillBoost": "Counter",
+      "footString": "3★ WF / Left",
+      "avgStats": {
+        "avg1": 82,
+        "avg2": 83,
+        "avg3": 89,
+        "avg4": 88,
+        "avg5": 63,
+        "avg6": 72
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "zVumax",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "GhQNpQ",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "wGhodZ",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p254822_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/10.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/114326.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/66.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500935,
+      "cardName": "Tudor",
+      "firstName": "Fran",
+      "lastName": "Tudor",
+      "commonName": "",
+      "rating": 87,
+      "position": "CB",
+      "clubName": "Raków Częstochowa",
+      "nationName": "Croatia",
+      "leagueName": "Poland Ekstraklasa",
+      "skillBoost": "Marking",
+      "footString": "3★ WF / Right",
+      "avgStats": {
+        "avg1": 100,
+        "avg2": 71,
+        "avg3": 78,
+        "avg4": 88,
+        "avg5": 83,
+        "avg6": 83
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "W8t7jk",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "nSESFF",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "1Yr9Rl",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p263439_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/38.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/234.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/308.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500934,
+      "cardName": "Paulo Bernardo",
+      "firstName": "Paulo Guilherme",
+      "lastName": "Gonçalves Bernardo",
+      "commonName": "Paulo Bernardo",
+      "rating": 87,
+      "position": "CM",
+      "clubName": "Benfica",
+      "nationName": "Portugal",
+      "leagueName": "Portugal Primeira Liga",
+      "skillBoost": "Vision",
+      "footString": "4★ WF / Right",
+      "avgStats": {
+        "avg1": 89,
+        "avg2": 76,
+        "avg3": 82,
+        "avg4": 88,
+        "avg5": 61,
+        "avg6": 72
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "E0WArT",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "gX5aEW",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "hFirw1",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p200700_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/165.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/110776.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/68.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500933,
+      "cardName": "Merkel",
+      "firstName": "Alexander",
+      "lastName": "Merkel",
+      "commonName": "",
+      "rating": 87,
+      "position": "CM",
+      "clubName": "Gaziantep FK",
+      "nationName": "Kazakhstan",
+      "leagueName": "Turkey Süper Lig",
+      "skillBoost": "Longpassing",
+      "footString": "3★ WF / Right",
+      "avgStats": {
+        "avg1": 79,
+        "avg2": 74,
+        "avg3": 90,
+        "avg4": 88,
+        "avg5": 71,
+        "avg6": 72
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "7VChir",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "ciIfdF",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "VKMnSF",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p246340_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/49.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/101059.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/332.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500932,
+      "cardName": "Mudryk",
+      "firstName": "Mykhailo",
+      "lastName": "Mudryk",
+      "commonName": "",
+      "rating": 87,
+      "position": "LW",
+      "clubName": "Shakhtar Donetsk",
+      "nationName": "Ukraine",
+      "leagueName": "Ukraine Premier Liga",
+      "skillBoost": "Agility",
+      "footString": "4★ WF / Right",
+      "avgStats": {
+        "avg1": 97,
+        "avg2": 77,
+        "avg3": 74,
+        "avg4": 90,
+        "avg5": 41,
+        "avg6": 68
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "kuLHSY",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "Unbg2U",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "RWgY1u",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p258942_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/39.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/100761.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/330.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500931,
+      "cardName": "Popescu",
+      "firstName": "Octavian",
+      "lastName": "Popescu",
+      "commonName": "",
+      "rating": 87,
+      "position": "LM",
+      "clubName": "FCSB",
+      "nationName": "Romania",
+      "leagueName": "Romania Liga I",
+      "skillBoost": "Dribbling",
+      "footString": "3★ WF / Right",
+      "avgStats": {
+        "avg1": 96,
+        "avg2": 76,
+        "avg3": 82,
+        "avg4": 90,
+        "avg5": 43,
+        "avg6": 59
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "dwOUj6",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "PK8AxK",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "pjoZF1",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p215540.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/16.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/1456.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/41.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500930,
+      "cardName": "Rólantsson",
+      "firstName": "Gilli",
+      "lastName": "Rólantsson",
+      "commonName": "",
+      "rating": 87,
+      "position": "RB",
+      "clubName": "Odds Ballklubb",
+      "nationName": "Faroe Islands",
+      "leagueName": "Norway Eliteserien",
+      "skillBoost": "Reactions",
+      "footString": "4★ WF / Right",
+      "avgStats": {
+        "avg1": 93,
+        "avg2": 74,
+        "avg3": 80,
+        "avg4": 88,
+        "avg5": 78,
+        "avg6": 79
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "YrnJCO",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "X9nmzI",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "vzgJYD",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    },
+    {
+      "images": {
+        "playerCardImage": "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_22/p222692_SVE.png?v=848rffjv3we",
+        "playerCardBackground": "https://cdn-p2.frzdb.net/fifamobile/images/backgrounds_22/backgrounds_21_SVE_A3.png?v=848rffjv3we",
+        "flagImage": "https://cdn-p2.frzdb.net/fifamobile/images/nationFlags_22/21.png?v=848rffjv3we",
+        "clubImage": "https://cdn-p2.frzdb.net/fifamobile/images/clubLogos_22/31.png?v=848rffjv3we",
+        "leagueImage": "https://cdn-p2.frzdb.net/fifamobile/images/leagueLogos_22/19.png?v=848rffjv3we",
+        "programImage": "https://cdn-p2.frzdb.net/fifamobile/images/programs_22/program_17_S6_SVE.png?v=848rffjv3we",
+        "rankImage": ""
+      },
+      "id": 19500929,
+      "cardName": "Schmitz",
+      "firstName": "Benno",
+      "lastName": "Schmitz",
+      "commonName": "",
+      "rating": 87,
+      "position": "RB",
+      "clubName": "1. FC Köln",
+      "nationName": "Germany",
+      "leagueName": "Germany 1. Bundesliga",
+      "skillBoost": "Pace",
+      "footString": "4★ WF / Right",
+      "avgStats": {
+        "avg1": 83,
+        "avg2": 64,
+        "avg3": 76,
+        "avg4": 88,
+        "avg5": 89,
+        "avg6": 84
+      },
+      "avgStatsNames": {
+        "avg1": "PAC",
+        "avg2": "SHO",
+        "avg3": "PAS",
+        "avg4": "DRI",
+        "avg5": "DEF",
+        "avg6": "PHY"
+      },
+      "rank": 0,
+      "animation": {
+        "cardData": [
+          "background",
+          "position",
+          "player",
+          "nation",
+          "club",
+          "name"
+        ],
+        "animations": [
+          {
+            "animations": [
+              {
+                "id": "sFMKtQ",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_ELITE_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 80 && rating < 90"
+          },
+          {
+            "animations": [
+              {
+                "id": "m4r8CN",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_MASTER_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 90 && rating < 100"
+          },
+          {
+            "animations": [
+              {
+                "id": "IvcP1N",
+                "image": "https://cdn-p2.frzdb.net/fifamobile/images/sprites_22/conv_playercardui_summervacation_s6_SPRITESHEET_LEG_SVE.png?v=848rffjv3we",
+                "imageHeight": 0,
+                "imageWidth": 0,
+                "maxFrames": 45
+              }
+            ],
+            "when": "rating >= 100 && rating < 500"
+          }
+        ]
+      },
+      "cardUiStyle": "summervacation_s6",
+      "filterProperty": 0
+    }
+  ],
+  "pageData": {
+    "pageCount": 948,
+    "pageSize": 20,
+    "currentPage": 1,
+    "rowCount": 18952
+  },
+  "queryString": "bHZsPTAmcGFnZT0xJm9CeT1BZGRlZHxERVNDfEMmZ2tTPU4="
+}
