@@ -3,7 +3,7 @@ const fs = require('fs');
 const csvParser = require('csv-parser');
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 const { elementLocated } = require('selenium-webdriver/lib/until');
-
+const path = require('path');
 
 // read data from csv file
 
@@ -16,9 +16,9 @@ function readData(filename, data) {
                 // console.log(row.phone + '\t' + row.name);
                 data.push({
                     index: i++,
-                    phone: row.phone,
+                    phone: row.phone.startsWith('84') ? row.phone.slice(2, row.phone.length) : row.phone,
                     name: row.name,
-                    zaloName: row.name,
+                    zaloName: 'Not Registered/Checked',
                 });
                 // console.log(data);
             })
@@ -32,8 +32,11 @@ function readData(filename, data) {
 }
 
 function writeCsv(data) {
+    // if (!fs.existsSync(path.resolve(__dirname, `../data/contacts`))) {
+    //     fs.mkdir(path.resolve(__dirname, `../data/contacts`), { recursive: true }, err => { });
+    // }
     const csvWriter = createCsvWriter({
-        path: `data/contacts/contactsE.csv`,
+        path: `data/contacts/zaloName.csv`,
         header: [
             { id: "index", title: "index" },
             { id: "phone", title: "phone" },
@@ -47,11 +50,6 @@ function writeCsv(data) {
         .then(() => console.log("The CSV file was written successfully"));
 }
 
-async function clear(driver, elm) {
-    // await driver.executeScript(e => e.select(), elm);
-    // await elm.sendKeys(Key.BACK_SPACE);
-    await driver.executeScript("arguments[0].value = '';", elm)
-}
 // main process
 async function zaloNameCheck(data) {
     let driver = await new Builder().forBrowser('chrome').build();
@@ -69,27 +67,24 @@ async function zaloNameCheck(data) {
 
         let search = await driver.wait(until.elementLocated(By.xpath(findXpath)));
         for (let elm of data) {
-            await clear(driver, search);
-            await driver.sleep(1000);
-
+            await driver.sleep(2000);
+            await search.sendKeys(Key.chord(Key.CONTROL, "a", Key.DELETE));
+            await driver.sleep(3000);
             await search.sendKeys(elm.phone);
             await driver.sleep(10000);
             let conv = await driver.findElements(By.className('conv-item-title__name'));
 
             if (conv.length > 0) {
-                console.log('check check');
                 elm.zaloName = await driver.wait(until.elementLocated(By.className('conv-item-title__name'))).getText();
-                // await clear(driver, search);
-                console.log('clear');
+                console.log('check check');
+
+                writeCsv(data);
             } else {
                 continue;
             }
 
 
         }
-        writeCsv(data);
-
-        // console.log(data);
         return data;
     } catch (errors) {
         console.log(errors);

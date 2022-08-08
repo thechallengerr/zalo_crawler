@@ -15,6 +15,25 @@ function rename(name) {
 	}
 	return name;
 }
+
+function membersWriter(name, members) {
+
+
+	//config csv file
+	const memberWriter = createCsvWriter({
+		path: `data/zalo/groups/zaloMember_${name}.csv`,
+		header: [
+			{ id: 'memberId', title: 'memberId' },
+			{ id: 'memberName', title: 'memberName' },
+		]
+	});
+
+	//wwrite file
+	memberWriter.writeRecords(members)
+		.then(() => console.log('members data written successfully'))
+		.catch(err => console.log(err))
+}
+
 async function getSpecificGroupMembers(groupName, data) {
 	let driver = new Builder()
 		.forBrowser('chrome')

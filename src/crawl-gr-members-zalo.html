@@ -24,10 +24,16 @@
                     <input type="text" name="group" class="form-control" id="group1" placeholder="Group Name">
                 </div>
                 <button type="submit" class="btn btn-primary crawl-fb-friends">Crawl</button>
-                <div class="btn btn-danger ml-5">Cancel</div>
+                <a class="btn btn-danger ml-5 backBtn p-2 text-white" href="/">Back</a>
             </form>
         </div>
     </div>
+    <script>
+        let backBtn = document.querySelector('.backBtn');
+        backBtn.onclick = function () {
+            window.location.replace('/')
+        }
+    </script>
 </body>
 
 </html>

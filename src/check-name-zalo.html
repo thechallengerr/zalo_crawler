@@ -17,18 +17,26 @@
 <body>
     <div class="container mt-5">
         <div class="mt-5">
-            <h3 class="mb-5">To get started, please verify your account via QR code to allow our tool to get all your
-                groups. Click Crawl to continue</h3>
+            <h3 class="mb-5">To get started, your .csv file must contain 2 field <code>phone</code> and
+                <code>name</code>. Please verify your account via QR code to allow our tool to get all your
+                groups. Click Crawl to continue
+            </h3>
             <form method="post" action="/zalo-name-check" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="formFile" class="form-label">Upload your .csv file here</label>
                     <input class="form-control" type="file" id="formFile" name="formFile">
                 </div>
                 <button type="submit" class="btn btn-primary crawl-fb-friends">Crawl</button>
-                <div class="btn btn-danger ml-5">Cancel</div>
+                <a class="btn btn-danger ml-5 backBtn p-2 text-white" href="/">Back</a>
             </form>
         </div>
     </div>
+    <script>
+        let backBtn = document.querySelector('.backBtn');
+        backBtn.onclick = function () {
+            window.location.replace('/')
+        }
+    </script>
 </body>
 
 </html>

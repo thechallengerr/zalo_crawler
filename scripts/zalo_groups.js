@@ -140,9 +140,9 @@ function sleep(ms) {
 
 //write members off each group to file
 function membersWriter(name, members) {
-    if (!fs.existsSync(path.join(__dirname, `/data/zalo/groups`))) {
-        fs.mkdir(path.join(__dirname, `/data/zalo/groups`), { recursive: true }, err => { });
-    }
+    // if (!fs.existsSync(path.join(__dirname, `/data/zalo/groups`))) {
+    //     fs.mkdir(path.join(__dirname, `/data/zalo/groups`), { recursive: true }, err => { });
+    // }
 
     //config csv file
     const memberWriter = createCsvWriter({
