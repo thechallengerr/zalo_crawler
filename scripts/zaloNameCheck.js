@@ -1,9 +1,16 @@
 const { Builder, By, Key, until } = require('selenium-webdriver');
+const chrome = require('selenium-webdriver/chrome');
+
 const fs = require('fs');
 const csvParser = require('csv-parser');
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 const { elementLocated } = require('selenium-webdriver/lib/until');
 const path = require('path');
+
+
+//chrome options
+let options = new chrome.Options();
+options.addArguments("--user-data-dir=C:\\Users\\Dell\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
 
 // read data from csv file
 
@@ -52,7 +59,7 @@ function writeCsv(data) {
 
 // main process
 async function zaloNameCheck(data) {
-    let driver = await new Builder().forBrowser('chrome').build();
+    let driver = await new Builder().forBrowser('chrome').setChromeOptions(options).build();
     await driver.get('https://chat.zalo.me/');
     await driver.manage().window().maximize();
     data = [];

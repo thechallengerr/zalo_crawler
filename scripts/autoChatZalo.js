@@ -2,12 +2,14 @@ const { Builder, By, Capabilities, ChromiumWebDriver, Key, until } = require('se
 let chrome = require('selenium-webdriver/chrome');
 var webdriver = require('selenium-webdriver');
 
+let options = new chrome.Options();
+options.addArguments("--user-data-dir=C:\\Users\\Dell\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
+
 async function autoChatZalo(phoneNumbers, chatContent) {
     let driver = new Builder()
         .withCapabilities(webdriver.Capabilities.chrome())
         .forBrowser('chrome')
-        .build()
-        ;
+        .build();
     //open zalo with maximum size of browser window
     await driver.get('https://chat.zalo.me');
     driver.manage().window().maximize();
@@ -15,54 +17,69 @@ async function autoChatZalo(phoneNumbers, chatContent) {
     try {
         let logs = new Array(phoneNumbers.length);
         let findXpath = '//*[@id="contact-search-input"]';
-        let inputMessageXpath = '/html/body/div/div/div[2]/main/div/article/div[4]/div[3]/div/div/div/div/div[1]';
-        let i = 0;
+
+
+        //Loop through every phone number
         for (let phoneNumber of phoneNumbers) {
+            //Find the search contact box
             let search = await driver.wait(until.elementLocated(By.xpath(findXpath)));
-            // phoneNumbers.indexOf()
-            // await driver.wait(until.elementLocated(By.xpath('/html/body/div/div/div[2]/nav/div[2]/div[3]/div/div[2]/div/div/div[1]/div/div[1]/div/div/div[2]')));
-            // let contact = await driver.wait(until.elementLocated(By.xpath('//*[@id="main-tab"]/div[1]/div[2]/div[2]')));
-            // await contact.click();
             await driver.sleep(Math.floor(Math.random() * 1000 + 1000));
+
+            // Clear current input
             await search.sendKeys(Key.chord(Key.CONTROL, "a", Key.DELETE));
             await driver.sleep(Math.floor(Math.random() * 2000 + 1000));
+
+            //input phone number
             await search.sendKeys(phoneNumber);
             await driver.sleep(Math.floor(Math.random() * 2000 + 8000));
-            // if (await driver.wait(until.elementLocated(By.className('global-search-no-result')))) {
-            //     logs.push('No conversation found for phone number: ' + phoneNumber);
-            //     continue;
-            // }
+
+            // 3 case when search for a phone number
+            // Conversation found
+            // No result found
+            // No call info
             let conv = await driver.findElements(By.className('conv-item-title__name'));
             let noResult = await driver.findElements(By.className('global-search-no-result'));
             let noCallInfo = await driver.findElements(By.css('div[icon="outline-call-info"]'));
             console.log('Conv found: ' + conv.length);
             console.log(noResult.length > 0 ? 'No results found' : "");
             console.log(noCallInfo.length > 0 ? 'No call info' : "");
-
+            // if conversation found and none of the rest case happen then we choose the first conversation found
             if (conv.length > 0 && (noResult.length === 0 && noCallInfo.length === 0)) {
 
-                // console.log('Conversation with ' + phoneNumber + ' found');
+                //Add log 
                 logs.push('Conversation with ' + phoneNumber + ' found');
-                // await driver.wait(until.elementIsVisible(By.className('conv-item-title__name'))).click();
+
+                // Enter key press to enter conversation
                 await search.sendKeys(Key.ENTER);
-                // console.log('Enter Chat');
 
                 logs.push('Enter Chat');
+
+                //find name of the receiver
                 let name = await driver.wait(until.elementLocated(By.xpath('/html/body/div/div/div[2]/main/div/header/div[1]/div[2]/div[1]/div[1]/div'))).getText();
+
+                //loop through list of message to send
                 for (let content of chatContent) {
+
+                    // wwait until the input message loccated , click on the input field and type message
                     await driver.sleep(Math.floor(Math.random() * 2000));
                     let inputMessage = await driver.wait(until.elementLocated(By.id('richInput')));
-
                     await inputMessage.click();
                     await inputMessage.sendKeys(content);
-                    // console.log(`\'${content}\' sent to ${name}`);
-
                     logs.push(`\'${content}\' sent to <strong class="fw-bold">${name}</strong>`);
                     await driver.sleep(Math.floor(Math.random() * 1000 + 1000));
+
+                    //Click button to send message
                     await driver.wait(until.elementLocated(By.xpath('//*[@id="chatInputv2"]/div/div/div[2]/div[5]'))).click();
-                    await driver.sleep(Math.floor(Math.random() * 1000 + 1000));
+                    await driver.sleep(Math.floor(Math.random() * 4000 + 1000));
+                    let lastestResponse = await driver.findElements(By.css('div[data-id="div_LastReceivedMsg_Text"] div span[id*="mtc-"]'));
+                    if (lastestResponse.length > 0) {
+                        let sendTime = await driver.findElements(By.css('div[data-id="div_LastReceivedMsg_Text"] div .card-send-time'));
+                        logs.push(`<strong class="fst-italic fw-bold">"${await lastestResponse[0].getText()}"</strong> sent by <strong class="fw-bold">${name}</strong> at <strong class="fst-italic fw-bold">${await sendTime[0].getText()}</strong>`);
+                    } else {
+                        logs.push(`No response from <strong class="fw-bold">${name}</strong> for message you 've sent`);
+                    }
                 }
-                // console.log('Chat conversation ended with ' + name);
+                // reload after each number
                 await driver.navigate().to(driver.getCurrentUrl());
                 logs.push('Chat conversation ended with ' + name);
             } else {
@@ -72,7 +89,6 @@ async function autoChatZalo(phoneNumbers, chatContent) {
                 continue;
             }
             logs.push('*****************************************************************');
-            i++;
         }
         console.log(logs.join('\n'));
         return logs;
@@ -83,13 +99,6 @@ async function autoChatZalo(phoneNumbers, chatContent) {
         await driver.close();
 
     }
-}
-
-var testChat = ['Trấn tuấn mãi đỉnh', "Trấn tuấn mãi đỉnh :))", 'Trấn tuấn mãi đỉnh', 'Trấn tuấn mãi đỉnh?', 'Trấn tuấn mãi đỉnh?', 'Yes, I do'];
-// autoChatZalo('0818320988', testChat).catch(function (err) { console.error(err); });
-
-function sleep(ms) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 module.exports = { autoChatZalo }

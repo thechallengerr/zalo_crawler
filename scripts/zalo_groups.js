@@ -5,10 +5,8 @@ const fs = require('fs');
 const path = require('path');
 const { data } = require('jquery');
 //login with default user 
-let options = new chrome.Options(
-);
-// options.addArguments("--user-data-dir = C:/Users/Dell/AppData/Local/Google/Chrome/User Data")
-
+let options = new chrome.Options();
+options.addArguments("--user-data-dir=C:\\Users\\Dell\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
 const caps = new Capabilities();
 caps.setPageLoadStrategy('normal');
 
@@ -18,6 +16,7 @@ async function getAllZaloGroups(groups) {
     let driver = new Builder()
         .withCapabilities(caps)
         .forBrowser('chrome')
+        .setChromeOptions(options)
         .build();
     //open zalo with maximum size of browser window
     await driver.get('https://chat.zalo.me');

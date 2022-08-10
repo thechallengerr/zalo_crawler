@@ -3,6 +3,10 @@ const chrome = require('selenium-webdriver/chrome');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const fs = require('fs');
 
+//Chrome options
+let options = new chrome.Options();
+options.addArguments("--user-data-dir=C:\\Users\\Dell\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
+
 function sleep(ms) {
 	return new Promise((resolve) => setTimeout(resolve, ms));
 }

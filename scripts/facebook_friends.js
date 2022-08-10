@@ -14,7 +14,8 @@ const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 const fs = require("fs");
 const chrome = require('selenium-webdriver/chrome')
 
-const options = new chrome.Options();
+let options = new chrome.Options();
+options.addArguments("--user-data-dir=C:\\Users\\Dell\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
 
 options.addArguments(['--disable-notifications']);
 
@@ -30,9 +31,9 @@ async function fbFriendsCrawler(acc, pwd, options, data) {
 
 		// block notifications on login
 		await sleep(5000);
-		let overlay = await driver.wait(until.elementLocated(By.xpath('/html/body/div[6]/div[1]/div/div[2]')));
+		let overlay = await driver.wait(until.elementLocated(By.xpath('/html/body/div[5]/div[1]/div/div[2]')));
 		await driver.sleep(3000);
-		if (overlay.isDisplayed()) {
+		if (overlay) {
 			console.log('Overlay found');
 			await overlay.click();
 			console.log('Overlay clicked');
