@@ -168,13 +168,4 @@ function rename(name) {
     return name;
 }
 
-
-//RUN
-// let all_groups
-// getAllZaloGroups(all_groups)
-//     .then(data => console.log(data))
-//     .catch(function (err) {
-//         console.error(err);
-//     });
-
 module.exports = { getAllZaloGroups }

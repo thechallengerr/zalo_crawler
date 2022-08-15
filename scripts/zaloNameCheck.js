@@ -1,16 +1,16 @@
 const { Builder, By, Key, until } = require('selenium-webdriver');
-const chrome = require('selenium-webdriver/chrome');
-
 const fs = require('fs');
 const csvParser = require('csv-parser');
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
+let chrome = require('selenium-webdriver/chrome');
 const { elementLocated } = require('selenium-webdriver/lib/until');
 const path = require('path');
 
 
-//chrome options
+//Chrome Options to login with default profile
 let options = new chrome.Options();
 options.addArguments("--user-data-dir=C:\\Users\\Dell\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
+
 
 // read data from csv file
 
@@ -23,7 +23,7 @@ function readData(filename, data) {
                 // console.log(row.phone + '\t' + row.name);
                 data.push({
                     index: i++,
-                    phone: row.phone.startsWith('84') ? row.phone.slice(2, row.phone.length) : row.phone,
+                    phone: !row.phone.startsWith('0') ? '0' + row.phone : row.phone,
                     name: row.name,
                     zaloName: 'Not Registered/Checked',
                 });
@@ -59,7 +59,7 @@ function writeCsv(data) {
 
 // main process
 async function zaloNameCheck(data) {
-    let driver = await new Builder().forBrowser('chrome').setChromeOptions(options).build();
+    let driver = await new Builder().forBrowser('chrome').build();
     await driver.get('https://chat.zalo.me/');
     await driver.manage().window().maximize();
     data = [];

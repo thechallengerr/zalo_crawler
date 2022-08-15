@@ -2,10 +2,9 @@ const { Builder, By, Capabilities, ChromiumWebDriver, Key, until } = require('se
 const chrome = require('selenium-webdriver/chrome');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const fs = require('fs');
-
-//Chrome options
 let options = new chrome.Options();
 options.addArguments("--user-data-dir=C:\\Users\\Dell\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
+
 
 function sleep(ms) {
 	return new Promise((resolve) => setTimeout(resolve, ms));
@@ -41,6 +40,7 @@ function membersWriter(name, members) {
 async function getSpecificGroupMembers(groupName, data) {
 	let driver = new Builder()
 		.forBrowser('chrome')
+		.setChromeOptions(options)
 		.build();
 	//open zalo with maximum size of browser window
 	await driver.get('https://chat.zalo.me');
@@ -56,6 +56,7 @@ async function getSpecificGroupMembers(groupName, data) {
 		let search = await driver.wait(until.elementLocated(By.xpath(findXpath)));
 		await search.sendKeys(groupName);
 		let groupFound = await driver.wait(until.elementLocated(By.xpath('/html/body/div/div/div[2]/nav/div[2]/div[3]/div/div[2]/div/div/div[1]/div/div[1]/div/div/div[2]')));
+		console.log('Found');
 		await sleep(5000);
 		await groupFound.click();
 
